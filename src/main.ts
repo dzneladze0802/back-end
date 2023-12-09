@@ -1,7 +1,7 @@
 import { NestFactory } from '@nestjs/core';
 
 import { AppModule } from './app.module';
-import { ALLOWED_CRUD_METHODS, FRONT_ENDPOINT, GLOBAL_PREFIX } from './consts';
+import { ALLOWED_CRUD_METHODS, GLOBAL_PREFIX } from './consts';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
